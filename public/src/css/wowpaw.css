@@ -1,0 +1,375 @@
+
+#carouselIcons{
+	color:black;
+
+
+}
+
+
+	.productSelect:hover{
+		background-color:#d9d9d9;
+	}
+/*---------------------------------------*/
+/* IT ALSO AFFECTS snowhite.html page */
+/*---------------------------------------*/
+@media only screen and (orientation : landscape){
+
+
+	
+
+	.productHeader{
+		width: 47%;
+		height: auto;
+		display: inline-block;
+		text-align: center;
+		vertical-align: middle;
+	
+		border-radius: 10px;
+		margin:5px 5px 5px 5px;
+	}
+	#wowPawHeaders {
+	position: relative;
+	text-align: center;
+	}
+	.productAnchor{
+		text-decoration: none;
+		color: #333;
+	}
+
+	.productSelect{
+		width: 100%;
+		background-color: transparent;
+		transition: background-color 0.75s;
+
+	}
+
+	.productSelect h2{
+		position: relative;
+		text-align: center;
+		background-color: transparent;
+		width: 100%;
+		position: relative;
+		display: inline-block;
+		text-align: center;
+		margin: 0 0 0 0;
+		font-size: 30px;
+		vertical-align: middle;
+	
+	
+	}
+
+
+
+	#mainDividerWowpaw{
+		margin-bottom: 40px;
+	}
+	#featuretteHeadingBrand{
+		width: 100%;
+		text-align: center;
+	}
+	.imgClass{
+
+		display: block;
+		background-color: transparent;
+		text-align: center;
+		width: 100%;
+		margin-top: 50px;
+		
+
+
+	}
+	.images{
+		width: 47%;
+		height: auto;
+		display: inline-block;
+		text-align: center;
+		vertical-align: middle;
+		/*border:1px #333 solid;
+		border-radius: 5px;*/
+		margin:5px 5px 5px 5px;
+		background-color: transparent;
+		transition: background-color 0.5s;
+	}
+	/*.images:hover{
+		border:2px #333 solid;
+		background-color: #d9d9d9;
+	}*/
+	#image1{
+		text-align: center;
+		
+	
+	}
+	#image2{
+		text-align: center;
+
+	
+
+	}
+	#wowpawBrand{
+		text-align: center;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.image-1{
+		position: relative;
+		display: inline-block;
+		margin: 0 auto;
+
+		width: 100%;
+		height: auto;
+	}
+	.image-2{
+		width: 100%;
+		height: auto;
+	}
+	#wowPawImg{
+		width: 30%;
+	}
+		
+
+	#wowpawTitleWrapper{
+		position: relative;
+		text-align: center;
+	}
+	#featuretteHeadingBed{
+		text-align: center;
+		position: relative;
+		display: inline-block;
+	}
+	#featuretteHeadingBedType{
+		position: relative;
+		text-align: center;
+		font-size: 50px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	#description{
+		text-align: center;
+	}
+
+	.infoContainer{
+		width:100%;
+		height: auto;
+		background-color: transparent;
+	}
+	.infoContainer-heading{
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	.contentCentralize{
+		position: relative;
+		text-align: center;
+	}
+
+	#measurementsRounded{
+		width: 100%;
+		border: 2px #333 solid;
+		margin-top: 20px;
+		margin-bottom: 50px;
+		height: 100px;
+		text-align: center;
+		font-size: 20px;
+
+	}
+
+	#measurementsRounded td{
+	width: 33%;
+
+}
+	#measurementsRounded tr,td{
+		position: relative;
+		font-weight: 20px;
+		text-align: center;
+		vertical-align: center;
+	}
+
+
+
+	#picDivContainer{
+		position: relative;
+		top:50px;
+		display: inline-block;
+		width:100%;
+		height: auto;
+		background-color: transparent;
+		float: right !important;
+
+	}
+
+	.picDiv{
+		position: relative;
+		width:30%;
+		height:auto;
+		margin-right:2px;
+		margin-left:2px; 
+		text-align: center ;
+		background-color: transparent;
+		float:right;
+		left:-20px;
+
+		
+	}
+	.picDiv img {
+		width:100%;
+		
+		height:auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#featuretteHeadingSize{
+		font-size: 30px;
+		text-align: center;
+	}
+	#ornekUrunlerimiz{
+		font-size: 30px;
+		text-align: center;
+	}
+	#squareContainer{
+		background-color: blue;
+	}
+	#featuretteHeadingBedTypeSquare{
+		display: block;
+		width: 100%;
+
+	}
+	#measurementsDivider{
+		margin-bottom: 15px;
+		margin-top: 15px;
+		color:#333;
+	}
+	#bodyDivider{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	#otherProducts{
+		position: relative;
+		display: block;
+	}
+	.infoContainer-pictures{
+		width: 100%;
+		background-color: transparent;
+		text-align: center;
+	}
+	.picParts{
+		position: relative;
+		display: inline-block;
+		width: 40%;
+		margin: 0 20px 0 20px;
+	}
+	#tableWowRoundedSmall{
+		width:120px;
+		height: auto;
+	}
+	#tableWowRoundedMedium{
+		width:150px;
+		height: auto;
+	}
+	#tableWowRoundedLarge{
+		width:180px;
+		height: auto;
+	}
+	.tablePics{
+
+	position: relative;
+	width:100%; 
+	display: inline-block;
+
+	text-align: center;
+	}
+	#lastTr{
+		height: 170px;
+	}
+
+	#myCarousel{
+		position: relative;
+		background: transparent;
+		
+		
+	}
+
+}
+
+
+
+@media only screen and (orientation : portrait){
+
+	#featuretteHeadingBed{
+		text-align: center;
+	}
+	#description{
+		text-align: center;
+	}
+	
+
+	.infoContainer{
+		width:100%;
+		display: inline-block;
+	}
+	.picDiv{
+		position: relative;
+		width:100%;
+		height:auto;
+		background-color: transparent;
+		margin-top: 5%;
+		margin-bottom: 5%;		
+	}
+
+	.picDiv img{
+		
+		width: 100%;
+		height:auto;
+}
+   .footer-distributed .footer-center #phoneIcon{
+        
+        background-color: transparent !important;
+    }
+
+    #wowpawBrand{
+		width: 100%;
+		text-align: center;
+	}
+
+	#wowPawImg{
+		position: relative;
+		width: 50%;
+	}
+
+		#measurementsRounded{
+			margin-bottom:5em;
+		}
+
+		#measurementsRounded tr,td{
+		font-size: 0.9em;
+		text-align: center;
+		vertical-align: center;
+	}
+
+	#tableWowRoundedSmall{
+		width:6em;
+		height: auto;
+	}
+	#tableWowRoundedMedium{
+		width:7.5em;
+		height: auto;
+	}
+	#tableWowRoundedLarge{
+		width:9em;
+		height: auto;
+	}
+	#lastTr{
+		height: 8em;
+	}
+
+	#sandIngredients td{
+		font-size: 0.6em;
+
+	}
+	#measurementsDivider{
+		margin-bottom: 3em;
+		margin-top: 3em;
+		color:#333;
+	}
+
+
+}

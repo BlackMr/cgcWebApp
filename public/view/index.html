@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html ng-app='Cgcwebapp'>
+
+<head>
+  <base href="/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title data-translate="public.view.index.title"></title>
+    <!-- Link for style.css !-->
+     <link rel="stylesheet" type="text/css" href="../src/css/style.css">
+
+     <!-- Link for footer style !-->
+     <link rel="stylesheet" type="text/css" href="../src/css/footer-distributed-with-address-and-phones.css">
+
+     <!-- WILL evaluate Later ***** !-->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap Core CSS -->
+   
+    <link href="../src/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../src/css/wowpaw.css" rel="stylesheet">
+    <link href="../src/css/snowhite.css" rel="stylesheet">
+   
+    <!-- Custom CSS -->
+    <link href="../src/css/half-slider.css" rel="stylesheet">
+    <link href="../src/css/index.css" type="text/css" rel="stylesheet">
+ 
+
+             <!-- jQuery -->
+    <script src="../src/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../src/js/bootstrap.min.js"></script>
+    
+  
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar-background"></div>
+
+        <div class="container" style="z-index:1">
+             <div class="langBar" id="langSelector" ng-translate-language-select></div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header" style="z-index:20">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar" id="iconBar1"></span>
+                    <span class="icon-bar"id="iconBar2"></span>
+                    <span class="icon-bar" id="iconBar3"></span>
+                </button>
+                <a href="/" class="navbar-brand" >
+                <img src="images/cgcLogo.png" >
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" style="z-index:-2" id="bs-example-navbar-collapse-1">
+                 <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li> -->
+        <li class="dropdown" >
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <span data-translate="public.view.index.navProduct"></span>
+              
+                <span class="caret"></span>
+          </a>
+         
+          <ul class="dropdown-menu" >
+              <li><a href="/sihirlibalik" id="dropDownMenuColor">
+                    <span>Sihirli Balık</span>
+                    </a>
+                </li>
+           <li><a href="/yasayanfosil" >
+                    <span>Yaşayan Fosil</span>
+                </a>
+            </li>
+            <li><a href="/wowpaw">
+                    <span>WowPaw</span>
+                   
+            </a></li>
+            <li><a href="/snowhite">Snowhite</a></li>
+            
+          </ul>
+        </li>
+        
+        
+        <li id="nav-iletisim">
+            <a href="#Bot" data-translate = "public.view.index.contacts"></a>
+        </li>
+       
+
+      </ul>
+            <!-- <div id="langSelect">
+            <a href="/eng" lang="en" hreflang="en">
+                <button id="langButton">ENGLISH</button>
+            </a>
+                
+            </div> --> 
+            
+    
+<!-- 
+             <button id="eng" lang="tr"onclick="document.body.className='en'">english</button>
+            <button id="tur" lang="en"onclick="document.body.className='tr'">turkce</button> -->
+
+            </div>
+            <!-- /.navbar-collapse -->
+
+
+
+        </div>
+        <!-- /.container -->
+
+    </nav>
+
+ <div ui-view></div>
+
+
+
+
+
+        <a name="Bot">
+    <footer class="footer-distributed" id="footerDistributed">
+
+        <div class="footer-container">
+            
+
+            <div class="footer-center footer-frame">
+
+                <div class="footer-bar">
+                    <i class="fa fa-map-marker"></i>
+                    <p id="adressName">Zühtü Müridoğlu Sok. 1.Orta Sok. Nükhet Apt. İstanbul, Türkiye</p>
+                </div>
+
+                <div class="footer-bar">
+                    <i class="fa fa-phone"></i>
+                    <p>+90 216 3869536</p>
+                </div>
+
+                <div class="footer-bar">
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@company.com">info@cgcticaret.com</a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-left footer-frame">
+
+
+                <p class="footer-links">
+                    <a href="#" data-translate="public.view.index.homePage"></a>
+                    
+                    <br>
+                    <a href="#" data-translate="public.view.index.contacts"></a>
+                  
+                    <br>
+                    <a href="http://cgcticaret.com" target="_blank" data-translate="public.view.index.purchaseItem"></a>
+                     <br>
+                </p>
+
+
+                <div class="footer-icons">
+
+                    <a href="https://www.facebook.com/SihirliBalik/"><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+
+                </div>
+
+               
+            </div>  
+
+
+        </div>
+
+       
+    </footer>
+
+
+
+
+    
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+   
+  <script src="../src/libs/angular/angular.js"></script>
+  <script src="../src/libs/angular-resource/angular-resource.js"></script>
+  <script src="../src/libs/angular-translate/angular-translate.js"></script>
+  <script src="../src/libs/angular-dynamic-locale/src/tmhDynamicLocale.js"></script>
+  <script src="../src/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+  <script src="../src/libs/angular-translate-storage-local/angular-translate-storage-local.js"></script>
+  <script src="../src/libs/angular-translate-handler-log/angular-translate-handler-log.js"></script>
+  <script src="../src/libs/angular-ui-router/release/angular-ui-router.js"></script>
+ <script src="../src/js/main.js"></script>
+ <script src="../src/js/appClient.js"></script>
+ <script src="../src/js/LocaleService.js"></script>
+ <script src="../src/js/LanguageSelectDirective.js"></script>
+  <script src="../src/js/HomeCtrl.js"></script>
+</body>
+
+</html>

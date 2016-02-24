@@ -1,0 +1,648 @@
+/*!
+ * Start Bootstrap - Half Slider HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@font-face {
+    font-family: normalCham;
+    src: url('../../fonts/Champagne & Limousines.ttf');
+}
+@font-face {
+    font-family: italicCham;
+    src: url('../../fonts/Champagne & Limousines Italic.ttf');
+}
+
+@font-face {
+    font-family: boldItalicCham;
+    src: url('../../fonts/Champagne & Limousines Bold Italic.ttf');
+}
+@font-face {
+    font-family: boldCham;
+    src: url('../../fonts/Champagne & Limousines Bold.ttf');
+}
+html,
+body {
+    height: 100%;
+       
+
+}
+
+
+a:-webkit-any-link{
+    text-decoration: none;
+}
+
+
+
+/*body.en :lang(tr) {
+  display: none ;
+}
+body.tr :lang(en) {
+  display: none ;
+}*/
+
+#langSelect{
+    position: relative;
+    float:right;
+    margin: 0 auto;
+    vertical-align: middle;
+    height: 100%;
+    width:auto;
+    border:1px #333 solid;
+    font-size: 12px;
+    opacity: 0.4;
+    
+}
+
+#langSelect a{
+    color: #333;
+    text-decoration: none;
+}
+
+.selectBox{
+    margin-left: 6px;  
+}
+
+.container{
+    position: relative;
+    width: 70%;
+    padding-right:0 !important ;/*for bootstrap constraints*/
+    padding-left: 0 !important;/*for bootstrap constraints*/
+}
+.navbar-inverse .navbar-nav>li>a{
+    background-color: #ffffff;
+    color:#333;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus{
+    background-color: #ffffff;
+    color:#333;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    background-color: #d9d9d9;
+    color:#333;
+}
+
+.navbar {
+padding-top: 12px;
+padding-bottom: 12px;
+margin-bottom:0;
+border-bottom:1px solid #ddd;
+}
+.navbar-toggle{
+    background-color: #333 ;
+}
+
+.navbar-header{
+
+  padding-right: 15px;
+
+
+}
+.navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+#pageHeadDivider{
+    margin-bottom: 20px;
+}
+
+
+.kontainer{
+    position: relative;
+    padding-top: 20px;
+    width:70%;
+    margin: 0 auto;
+    padding-right:0;
+    padding-left: 0;
+    font-family: normalCham; /* General text font of the website */
+
+
+}
+.navbar-collapse{
+   font-family: normalCham, serif;/* font-family of website .nav-navbar*/
+   font-size: 21px ;
+
+  
+
+}
+
+/* dropdown menu buttons specified background-color*/
+./*navbar-nav>li>a {
+    color: #333;
+    
+}*/
+.navbar-nav>li>a:hover{ 
+    background-color: #d9d9d9 ;
+}
+.navbar-nav>li>.dropdown-menu {
+
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-nav>li>a>.dropdown-toggle {
+
+    color: #333 !important;
+}
+
+
+.navbar-nav>li>.dropdown-menu>li>a {
+    transition: background-color 0.1s ;
+    background-color: #ffffff;
+    color: #333;
+    font-size: 18px;
+
+}
+.navbar-nav>li>.dropdown-menu>li>a:hover {
+
+    background-color: #d9d9d9 !important;
+
+    color:#333;
+
+}
+.navbar-background{
+    background-color: #ffffff;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    height:auto;
+    width :auto;
+    opacity: 1;
+    z-index: -20;
+
+}
+
+.slogan {
+    background-color: #d9d9d9;
+    width:70%;
+    margin: 20px auto;
+
+    
+}
+.col-lg-12 p{
+    font-family: italicCham;
+    color:#333;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 2;
+}
+
+    
+
+
+/* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
+
+.carousel {
+    height: 50%;
+    
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.featurette-about{
+    position: relative;
+}
+
+.featurette-divider {
+    margin: 80px 0;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 20px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 20px;
+
+}
+
+.featurette-heading {
+    font-size: 50px;
+    
+}
+.featurette-headings {
+    color:#333;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+#featuretteHeadingSB{
+    color:#0066ff;
+  
+    padding-top:;
+}
+
+
+.footer-left{
+    background-color: transparent; !important;
+
+}
+.footer-right{
+    background-color: transparent; !important;
+}
+.footer-center{
+    background-color: transparent; !important;
+}
+
+
+#featuretteHeadingYF{
+    color:#865a2c;
+}
+#featuretteHeadingWowpaw{
+    color:red;
+}
+.text-muted {
+    font-size: 28px;
+}
+
+#myCarousel{
+    width:100%;
+    margin-top: 100px; /* Will Deleted after adjustments!!! */ 
+   margin-bottom: 100px;
+    display: block;
+    height: 320px;
+}
+
+
+
+.footer-distributed{
+    font-family: boldCham;
+    padding:0 0 0 0 ;
+    height:auto;
+   
+    
+}
+.footer-container {
+    width:70%;
+    margin:0 auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#adressName span{
+    font-size: 13px;
+}
+
+    
+}
+#otherProductsHeader{
+    color:#865a2c;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+/* İNCELEMEK İSTERSENİZ TARAFI */
+.featurette-container{
+    text-align: center;
+    width:100%;
+
+}
+.featurette-container a{
+    
+    margin: 10px;
+   
+    width:200px ;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+.featurette-container img{
+    width:180px;
+    height: 160px;
+    margin: 0 auto ;
+    vertical-align: middle;
+    
+    
+}
+
+.featurette-par {
+    position: relative;
+    font-size: 20px;
+    height: 40px;
+    margin-bottom: 0;
+    transition: background-color 1s;
+    background-color: #d9d9d9;
+    
+}
+.featurette-par:hover{
+    background-color: #333;
+    color:#999999;
+}
+
+#kitInfo{
+display: inline-block;
+}
+.featurette-div{
+    margin-top: 80px;
+}
+
+.navbar-collapse{
+    position: relative;
+    top:12px;
+    background-color: transparent;
+
+
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {color:#333;}
+
+
+
+@media (max-width: 768px){
+   .navbar-collapse ul .dropdown .dropdown-menu{
+        
+    } 
+    .footer-distributed .footer-center .fa{
+        
+        display: block;
+ 
+
+    }
+
+    .footer-center {
+        padding-bottom: 0px !important;
+        height: 220px  !important;
+    }
+
+    .footer-left {
+        padding-bottom: 40px !important;
+
+        padding-top: 0px !important;
+        height: 250px  !important;
+    }
+
+
+    .footer-bar{
+        position: relative;
+        width:100%;
+        height:50px;
+      
+        margin-bottom: 5%;
+    }
+
+
+    .footer-bar p {
+        position: relative;
+        left:-5%;
+        width: 69%;
+        float:right;
+        text-align: left;
+        top:20px;
+    }
+    .footer-bar .fa{
+        
+        position: relative;
+        width: 19%;
+        float: left;
+        left:5%;
+    }
+    #adressName {
+        top:13px;
+    }
+
+}
+
+@media (min-width: 768px){
+
+    .dropdown:hover .dropdown-menu {    
+
+        display: block !important;
+
+    }
+    .footer-bar{
+        position: relative;
+        width:100%;
+        height:50px;
+     
+        margin-bottom: 5%;
+    }
+
+
+    .footer-bar p {
+        position: relative;
+        left:-5%;
+        width: 69%;
+        float:right;
+        text-align: left;
+        top:20px;
+    }
+    .footer-bar .fa{
+        
+        position: relative;
+        width: 19%;
+        float: left;
+        left:5%;
+    }
+    #adressName {
+        top:13px;
+    }
+
+}
+
+
+@media (min-width: 880px){
+
+
+    .footer-left{
+        position: relative;
+        float: left;
+        left:0;
+    }
+    .footer-distributed{
+          height:270px !important;
+    }
+    .footer-container{
+      
+        text-align: center;
+        position: relative;
+
+    }
+    .footer-frame{
+        display:inline-block;
+        position: relative;
+        float:left;
+        background-color:  transparent;
+        height:250px;
+        width:30% !important;
+        margin:1%;
+        padding: 1%;
+
+
+    }
+
+    .footer-center{
+        position: relative;
+        float:right;
+    width:50%!important;
+}
+
+}
+@media (max-width:983px){
+    #kitVideo{
+        position: relative;
+        background-color: transparent;
+        display: block !important;
+        width: 100%;
+        text-align: center;
+    }
+    #videoWrapper{
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media only screen and (orientation : landscape){
+        
+
+
+
+
+    .kontainer{background-color: transparent;}
+    
+    .navbar-brand{
+    padding-top: 0;
+  
+
+
+    }
+
+    .featurette-container{
+        text-align: center;
+        width:100%;
+
+    }
+    #kitVideo{
+    display: inline-block;
+    margin-top: 100px;
+    margin: 0 auto;
+    text-align: center
+    }
+    #mainPageWow,#mainPageYF,#mainPageSB{
+        max-width:37%;
+    }
+
+
+   
+}
+@media only screen and (orientation : portrait){
+
+    body {min-width: 300px;}
+
+    .container{width: 100%;
+    padding-right:0 !important ;/*for bootstrap constraints*/
+    padding-left: 10px !important;/*for bootstrap constraints*/
+}
+    .container1{
+        background-color: green;
+    }
+    
+   
+    .featurette-container{
+        text-align: center;
+        width:100%;
+
+    }
+
+    #kitvideo{
+
+        text-align: center;
+
+    }
+    #kitVideo iframe{
+        width:100%;
+        height:auto;
+    }
+    .kontainer{
+        background-color: transparent;
+    }
+ 
+
+    .dropdown:focus{
+        background-color: red;
+    }
+    .dropdown:focus .dropdown-menu {
+
+        display: block !important;
+    }
+    #mainPageWow,#mainPageSB,#mainPageYF{
+        width:100%;
+        text-align: center;
+    }
+    #mainPageSB{
+        padding-bottom:40px;
+
+    }
+    #mainPageYF{
+        padding-bottom: 40px;
+    }
+    .col-lg-12 {
+     margin-bottom: 70px;
+     margin-top: 30px;
+
+    }
+    
+     /* slogan on the index.html*/
+    .col-lg-12 p{
+    font-size: 20px;
+    line-height: 1;
+    }
+    .featurette-heading{
+        text-align: center;
+    }
+    #sb-yfDivider,#yf-wowDivider{
+        margin-top:25px;
+        margin-bottom:25px;
+    }
+
+
+    .featurette-headings {
+    
+    font-size: 30px;
+   
+
+}
+
+
+   
+}
+
+    
+    
+
+

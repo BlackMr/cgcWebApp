@@ -1,0 +1,26 @@
+@font-face {
+    font-family: normalCham;
+    src: url('../../fonts/Champagne & Limousines.ttf');
+}
+
+.slogann{
+	width: 100%;
+	text-align: center;
+	font-size: 32px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+	padding-bottom: 50px;
+	
+}
+.slogann p{
+	font-family: normalCham;
+	color:#333;
+}
+
+#langSelector{
+	position: relative;
+	display: inline-block;
+	float: right;
+	font-family: normalCham;
+}
+

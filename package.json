@@ -1,0 +1,27 @@
+{
+  "name": "cgcticaret",
+  "description": "Website CGC",
+  "main": "app.js",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node app.js"
+                },
+  "dependencies": {
+    "express": "latest",
+    "body-parser":"latest",
+    "cookie-parser":"latest",
+    "i18n-2":"latest",
+    "app-router":"latest"
+
+  },
+  "devDependencies": {
+
+      },
+    "engines": { "node": "0.12.7",
+    "npm":"2.13.1"
+  }
+}
+
+
+
+
