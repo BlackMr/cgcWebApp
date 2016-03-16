@@ -23,4 +23,6 @@
 	float: right;
 	font-family: normalCham;
 }
-
+.dropdown-menu{
+	padding-left: 0;;
+}
