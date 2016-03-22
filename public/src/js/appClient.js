@@ -64,6 +64,16 @@ angular.module('Cgcwebapp', ['ngResource',
         url: '/wowpaw',
         controller: 'HomeCtrl',
         templateUrl: '/view/wowpaw.html'
+      })
+      .state('contact', {
+        url:'/contact',
+        controller:'HomeCtrl',
+        templateUrl: '/view/contact.html'
+      })
+        .state('aboutus', {
+        url:'/aboutus',
+        controller:'HomeCtrl',
+        templateUrl: '/view/aboutus.html'
       });
 
 
